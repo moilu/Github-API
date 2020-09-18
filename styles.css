@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+body {
+    background-color: rgb(44, 66, 66);
+    margin: 0 30% 0 30%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 10%;
+}
+
+form {
+    height: 50px;
+    border: solid 1px silver;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin: auto;
+    margin-right: 0;
+}
+input {
+    margin: auto;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 5px;
+}
+
+button {
+    margin: auto;
+    margin-left: 0;
+    background-color: #1E90FF;
+    color: aliceblue;
+    font-weight: 400;
+    border-radius: 5px;
+    border-color: #1E90FF;
+}
+
+div {
+    border: solid 1px silver;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+}
+
+form {
+    text-align: center;
+}
+
+h2 , p {
+    text-align: left;
+    padding-left: 20px;
+}
+
+ul {
+    display: block;
+    height: 300px;
+    list-style: none;
+    border: solid 1px silver;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+li {
+    margin-top: auto;
+}
+
+@media (max-width: 425px) {
+    body {
+        margin: 0 5% 0 5%;
+    }
+
+}
+
