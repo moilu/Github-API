@@ -15,13 +15,16 @@
         <P>Consulta los datos de tu cuenta Github con solo el nombre de usuario.</P>
     </header>
     <div>
-        <form action="#" method="post">
+        <div class="search_bar">
             <label for="user_name">User:</label>
-            <input id="name">
-            <button>Búsqueda</button>
-        </form>
+            <input type="text" id="u_name" name="user_name">
+            <button onclick="getUser();">Búsqueda</button>
+        </div>
+        <figure>
+            <img src="" id="user_pic" alt="">
+        </figure>
         <h2>Usuario</h2>
-            <p id="login"></p>
+        <p id="login"></p>
         <h2>Repositorios</h2>
             <p id="Repositorios"></p>
         <h2>Biografía</h2>
@@ -32,7 +35,7 @@
             <p id="Email"></p>
         <h2>Twitter</h2>
             <p id="Twitter"></p>
-        </div>
+    </div>
     <script src="./index.js"></script>
 </body>
 </html>

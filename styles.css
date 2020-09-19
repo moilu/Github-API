@@ -14,7 +14,7 @@ header {
     padding-top: 10%;
 }
 
-form {
+.search_bar {
     height: 50px;
     border: solid 1px silver;
     border-radius: 10px;
@@ -50,27 +50,23 @@ div {
     background-color: #f0f8ff;
 }
 
-form {
-    text-align: center;
-}
-
 h2 , p {
     text-align: left;
     padding-left: 20px;
 }
-
-ul {
-    display: block;
-    height: 300px;
-    list-style: none;
-    border: solid 1px silver;
-    border-radius: 10px;
-    background-color: aliceblue;
+figure {
+    display: flex;
+    margin-left: 0;
 }
 
-li {
-    margin-top: auto;
+figure img {
+    height: 150px;
+    border-radius: 50px;
+    margin-left: 0;
+    padding: 10px;
 }
+
+
 
 @media (max-width: 425px) {
     body {
